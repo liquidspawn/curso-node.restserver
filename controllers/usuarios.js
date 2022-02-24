@@ -11,7 +11,9 @@ const usuariosGet = (req, res = response) => {
 
 
 const usuariosPut = (req, res = response) => {
-         const id = req.params.id;
+         
+    
+    const id = req.params.id;
 
 
     res.json({
